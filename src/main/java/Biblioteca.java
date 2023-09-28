@@ -4,7 +4,7 @@ public class Biblioteca {
     ArrayList<Libro> listaLibros;
     String nombreBiblioteca, direccion;
 
-    Biblioteca(ArrayList listaLibros, String nombreBiblioteca, String direccion){
+    Biblioteca(ArrayList<Libro> listaLibros, String nombreBiblioteca, String direccion){
 
         this.listaLibros = listaLibros;
         this.nombreBiblioteca = nombreBiblioteca;
