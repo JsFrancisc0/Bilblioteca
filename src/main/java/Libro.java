@@ -20,4 +20,16 @@ public class Libro {
     public String getEditorial() {
         return editorial;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
 }
