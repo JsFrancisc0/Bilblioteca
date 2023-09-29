@@ -23,4 +23,16 @@ public class Biblioteca {
     public String getNombreBiblioteca() {
         return nombreBiblioteca;
     }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public void setListaLibros(ArrayList<Libro> listaLibros) {
+        this.listaLibros = listaLibros;
+    }
+
+    public void setNombreBiblioteca(String nombreBiblioteca) {
+        this.nombreBiblioteca = nombreBiblioteca;
+    }
 }
